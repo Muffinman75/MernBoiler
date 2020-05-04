@@ -1,0 +1,8 @@
+@import '../../base/variables';
+
+input[type=text] {
+  background-color: $input-background-color;
+  border: 0;
+  padding: 14px 20px;
+  width: 100%;
+}

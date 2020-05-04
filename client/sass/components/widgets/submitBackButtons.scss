@@ -1,0 +1,17 @@
+@import './buttonsMixins';
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  padding-top: 48px;
+
+  .back {
+    @include back-button;
+  }
+
+  .submit {
+    @include submit-button;
+  }
+}
+

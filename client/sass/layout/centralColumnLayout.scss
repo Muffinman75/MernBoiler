@@ -1,0 +1,15 @@
+@import '../base/variables';
+
+.central-column-layout-container {
+  margin: auto;
+  max-width: 770px;
+  padding: 0;
+
+  .central-column-layout-container-inner {
+    padding: 0 25px;
+
+    @media only screen and (min-width: $break-large-phones) {
+      padding: 0 100px;
+    }
+  }
+}
